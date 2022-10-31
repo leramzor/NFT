@@ -1,0 +1,8 @@
+Visual Studio(with python installed)
+pgAdmin
+Libraries for python:
+time import sleep
+json2html
+import requests, psycopg2, json
+from flask import Flask, render_template, request,redirect,flash,current_app,url_for
+import bcrypt
