@@ -84,7 +84,7 @@ def login():
         if not bcrypt.checkpw(password.encode('utf8'), user[0].encode('utf8')):
             error = 'Incorrect password.'
         if error is None:
-            print("User %s (%s) has logged in.", login)
+            print("User has logged in.", login)
             session["login"] = request.form.get("login")
             return redirect(url_for('search'))
 
